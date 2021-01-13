@@ -1,0 +1,37 @@
+{
+  "id": "2322486",
+  "name": "react_test",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "859457",
+      "name": "首页",
+      "font_class": "home",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "3282388",
+      "name": "用户中心",
+      "font_class": "yonghuzhongxin",
+      "unicode": "e642",
+      "unicode_decimal": 58946
+    },
+    {
+      "icon_id": "3521809",
+      "name": "新闻",
+      "font_class": "xinwen",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "14294104",
+      "name": "订单",
+      "font_class": "dingdan",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    }
+  ]
+}
