@@ -1,25 +1,21 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { Layout } from 'antd';
 import { MenuUnfoldOutlined, MenuFoldOutlined } from '@ant-design/icons';
-import NavPage from './pages/NavPage'
-import './static/css/common.css'
+import NavPage from '../NavPage/index'
 const { Header, Content } = Layout;
-const { Sider } = Layout;
-class App extends Component {
-  state = {
-    collapsed: false,
-  };
+class HomePage extends React.Component {
+ 
+
   toggle = () => {
     this.setState({
       collapsed: !this.state.collapsed,
     });
   };
+
   render() {
     return (
-      <Layout className={'h100'}>
-        <Sider trigger={null} collapsible collapsed={this.state.collapsed}>
-          <NavPage></NavPage>
-        </Sider>
+      <Layout>
+        <NavPage></NavPage>
         <Layout className="site-layout">
           <Header className="site-layout-background" style={{ padding: 0 }}>
             {React.createElement(this.state.collapsed ? MenuUnfoldOutlined : MenuFoldOutlined, {
@@ -42,4 +38,4 @@ class App extends Component {
     );
   }
 }
-export default App
+export default HomePage

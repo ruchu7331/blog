@@ -12,10 +12,3 @@ ReactDOM.render(
  </Provider>,
   document.getElementById('root')
 );
-
-// store.subscribe(()=>{
-//   ReactDOM.render(
-//     <App/>,
-//     document.getElementById('root')
-//   );
-// })
